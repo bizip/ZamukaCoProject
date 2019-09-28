@@ -1,0 +1,211 @@
+body {
+    background-color: blue;
+}
+
+#align {
+    text-align: center;
+}
+
+#white {
+    color: white;
+    font-weight: 500px;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+.thumbnail img {
+    width: 100%;
+    padding: 0;
+}
+
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#gradient {
+    background: #9CECFB;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.float-inro img {
+    float: right;
+    margin-right: 1em;
+}
+
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Set a specific color for each brand */
+
+
+/* Facebook */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-whatsapp {
+    background: rgb(18, 194, 42);
+    color: white;
+}
+
+.fa-instagram {
+    background: rgba(228, 14, 14, 0.856);
+    color: white;
+}
+
+.fa-skype {
+    background: #55ACEE;
+    color: white;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+}
+
+.fa-linkedin {
+    background: #55ACEE;
+    color: white;
+}
+
+#intouch {
+    text-align: center;
+}
+
+#content {
+    text-align: center;
+    background-image: url(../image/s.jpg);
+    background-size: cover;
+    padding-bottom: 25%;
+    margin-bottom: 20px;
+}
+
+#logo {
+    width: 100%;
+    padding: 0;
+}
+
+#full {
+    width: 100%;
+    padding: 0;
+}
+
+.jumbotron {
+    background-image: linear-gradient(to right bottom, rgba(56, 172, 36, 0.5), #28b446bb);
+    background-size: cover;
+}
+
+#about {
+    background-image: linear-gradient(to right bottom, rgba(56, 172, 36, 0.5), #28b446bb), url(../image/k.jpg);
+    background-size: cover;
+}
+
+.heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-image: -webkit-gradient(linear, left top, right top, from(#7ed56f), to(#28b485));
+    background-image: linear-gradient(to right, #7ed56f, #28b485);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .2rem;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+@media only screen and (max-width: 56.25em) {
+    .heading-secondary {
+        font-size: 3rem
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .heading-secondary {
+        font-size: 2.5rem
+    }
+}
+
+.heading-secondary:hover {
+    -webkit-transform: skewY(2deg) skewX(15deg) scale(1.1);
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2)
+}
+
+
+/*sidebar */
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+
+/*Main-col */
+
+article#main-col {
+    float: left;
+    width: 65%;
+}
+
+#SignUp {
+    display: none;
+    margin-left: 31%;
+    margin-top: -22cm;
+    background: #800;
+    width: 35%;
+    font-weight: bold;
+    height: 8.5cm;
+    top: 100000px;
+}
+
+#loginForm {
+    display: none;
+    margin-left: 31%;
+    margin-top: -22cm;
+    background: #800;
+    width: 35%;
+    font-weight: bold;
+    height: 8.5cm;
+    top: 100000px;
+}
+
+.quote {
+    margin-left: 30%;
+}
+
+.dark {
+    padding: 15px;
+    background: #35424a;
+    color: #ffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

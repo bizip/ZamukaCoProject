@@ -1,0 +1,473 @@
+body{
+  font: 15px/1.5 Arial,Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+/* Global */
+.container{
+  width: 80%;
+  margin:auto;
+  overflow:hidden;
+
+}
+a{
+  text-decoration: none;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+.button_1{
+  height: 38px;
+  background:#800;
+  border: none;
+  padding: 0 20px 0 20px;
+  color: #ffff;
+  width:150px;
+}
+.dark{
+  padding: 15px;
+  background:#35424a;
+  color: #ffff;
+  margin-top:10px;
+  margin-bottom:10px; 
+}
+
+/*header */
+
+header{
+  background-color:#35424a;
+  color: #ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#800 3px solid;
+}
+header a{
+ 
+ color: #ffffff;
+ text-decoration:none;
+ text-transform: uppercase;
+ font-size:16px;
+}
+
+header li{
+  float:left;
+  display: inline;
+  padding: 0  20px 0 20px;
+}
+header #branding{
+  float:left;
+}
+header #branding h1{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-top: 10px;
+}
+header .highlight, header .current a{
+  color: #800;
+  font-weight:bold;
+}
+header a:hover{
+  color:#cccccc;
+  font-weight: bold;
+}
+#login {
+  margin: -2cm 0 0 90%;
+}
+#login #br{
+  margin-left: 2cm;
+  margin-top: -1cm;
+}
+header #login a{
+   font-size:12px;
+}
+header #login a:hover{
+  color:#800;
+  font-weight:italic;
+}
+#men{
+  display: none;
+}
+
+/* ShowCase */
+
+#showcase{
+  
+  min-height: 400px;
+  background:url('../img/showcase.jpg') no-repeat 0 ; 
+    text-align:center;
+    color: #ffffff;
+    background-size:cover;
+    } 
+    #showcase h1{
+      margin-top:100px;
+      font-size:55px;
+      margin-bottom: 10px;
+      
+    }
+    #showcase p{
+      font-size:20px;
+
+    }
+
+    /*newsletter*/
+
+    #newsletter{
+      padding:15px;
+      color: #ffffff;
+      background:#35424a;
+    }
+     #newsletter1{
+      margin-top: 5px;
+      padding:15px;
+      color: #ffffff;
+      background:#35424a;
+    }
+    #newsletter1 h1{
+      float: left;
+
+
+    }
+    #newsletter1 form{
+      float: right;
+      margin-top:15px;
+
+    }
+    #newsletter1 input[type="email"]{
+     
+     padding:4px;
+     height: 25px;
+     width:250px;
+    }
+
+    #newsletter h1{
+      float: left;
+
+
+    }
+    #newsletter form{
+      float: right;
+      margin-top:15px;
+
+    }
+    #newsletter input[type="email"]{
+     
+     padding:4px;
+     height: 25px;
+     width:250px;
+    }
+    
+
+    /* Boxes */
+    #boxes{
+      margin-top:40px;
+    }
+    #boxes .box{
+        float:left;
+        text-align:center;
+        width:47%;
+        padding:10px;
+    }
+    #boxes .box img{
+      width:300px;
+    }
+    /* Trends */
+
+     #trends{
+      margin-top:10px;
+    }
+    #trends .trend{
+        float:left;
+        text-align:center;
+        width:30%;
+        padding:10px;
+    }
+    #trends .trend img{
+      width:180px;
+    }
+
+/*sidebar */  
+  
+  aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+  }
+  
+  /*Main-col */
+  article#main-col{
+
+    float:left;
+    width: 65%;
+  }
+  #SignUp{
+    display: none;
+    margin-left: 31%;
+    margin-top: -22cm;
+    background:#800;
+    width: 35%;
+    font-weight: bold;
+    height:8.5cm;
+    top: 100000px;
+  }
+    #loginForm{
+    display:none;
+    margin-left: 31%;
+    margin-top: -22cm;
+    background:#800;
+    width: 35%;
+    font-weight: bold;
+    height:8.5cm;
+    top: 100000px;
+  }
+  .quote{
+    margin-left:30%;
+  }
+
+    footer{
+      padding: 20px;
+      margin-top: 35px;
+      color: #ffffff;
+      background-color: #800;
+      text-align: center;
+      font-family: Arial,Helvetica,sans-serif;
+    }
+    /* login form */
+    form {
+      border: 3px 
+      solid #f1f1f1;
+    }
+    input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+/* signUp form */
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #35424a;;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #800;;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+    /* Media Queries */
+@media(max-width:768px){
+ 
+ header #branding,
+ header nav,
+ header nav li,
+ #main .container .quote,
+ #newsletter h1,
+ #newsletter form,
+ #newsletter1 h1,
+ #newsletter1 form,
+ #boxes .box,
+ #trends .trend,
+ article#main-col,
+ aside#sidebar,
+    #loginForm,#join,#join img{
+  float:none;
+  text-align:center;
+  width: 100%;
+
+ }
+  
+ 
+ header{
+  padding-bottom: 20px;
+
+ }
+ #login {
+  margin-left: 6cm;
+  margin-top: -2cm;
+
+ }
+
+#login #br{
+  margin-left:0px;
+  margin-top:-20px;
+
+ }
+ 
+ #showcase h1{
+  margin-top: 40px;
+ }
+
+ #newsletter button, .quote button, #newsletter1 button{
+  display: block;
+  width: 100%;
+ }
+
+ #newsletter form input[type="email"], .quote input, .quote textarea, #newsletter1 form input[type="email"],{
+  width: 100%;
+  margin-bottom: 5px;
+ }
+
+
+  #loginForm{
+
+    margin-top:-38cm;
+    width: 90%;
+    margin:-38cm 3cm 0 15px;
+    font-weight: bold;
+    height:5.5cm;
+   
+
+    }
+ #SignUp{
+
+  margin-top:-38cm;
+  width: 95%;
+  margin:-38cm 3cm 0 10px;
+  height:8.5cm;
+
+ }
+ nav ul{
+
+  width:2cm;
+  background-color:#f4f4f4;
+  margin-top:-0.5cm;
+  
+
+
+ }
+ nav{
+  display:none;
+ }
+ #nv a{
+  font-size:9px;
+  margin-left: -0.5cm; 
+  color:black;
+  font-weight: bold;
+  text-decoration: underline;
+ }
+
+#men{
+  display: block;
+
+  
+}
+.quote{
+  margin:0;
+}
+
+}
+#like{
+  margin-top: -20px;
+    background:url('../img/like.png') no-repeat 0 ; 
+background-size:cover;
+  
+  width: 2cm;
+  height: 1.2cm;
+}
+#like_nber{
+  width: 1cm;
+  height: 1cm;
+  margin-left: 0.2cm;
+  margin-top: -1cm;
+  
+}
+#dislike{
+    background:url('../img/dislike.jpg') no-repeat 0 ; 
+background-size:cover;
+  
+  width: 2cm;
+  height: 1.2cm;
+ margin-left: 1cm;
+  margin-top: -2cm;
+}
+#dislike_nber{
+  width: 1cm;
+  height: 1cm;
+  margin-left: 0.2cm;
+  margin-top: -1cm;
+  
+}
